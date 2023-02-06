@@ -1,0 +1,52 @@
+body {
+  background: cornsilk;
+}
+
+h1 {
+  text-align: center;
+  color: brown;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  height: auto;
+  border: 7px double grey;
+}
+
+h3 {
+  text-align: center;
+  color: brown;
+  font-size: 28px;
+}
+.about-croissant p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 22px;
+}
+
+.contact-us {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+}
+
+#contact {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+}
