@@ -1,33 +1,43 @@
 body {
-  background: cornsilk;
+  background: #f8ead8;
 }
 
 h1 {
   text-align: center;
-  color: brown;
+  color: #820000;
+  font-size: 46px;
 }
 
-ul {
-  list-style-type: none;
+h2 {
+  text-align: center;
+  color: #a47e3b;
+  font-size: 32px;
 }
 
-a {
-  text-decoration: none;
+h3 {
+  text-align: center;
+  color: #bf9742;
+  font-size: 28px;
+}
+
+footer {
+  text-align: center;
+  display: block;
+}
+
+footer a {
+  margin: 0 10px;
+  color: #61481c;
 }
 
 img {
   display: block;
-  margin: 0 auto;
+  margin: 30px auto;
   max-width: 400px;
   height: auto;
   border: 7px double grey;
 }
 
-h3 {
-  text-align: center;
-  color: brown;
-  font-size: 28px;
-}
 .about-croissant p {
   display: flex;
   flex-direction: column;
@@ -45,8 +55,13 @@ h3 {
 
 #contact {
   display: block;
-  margin: 0 auto;
+  margin: 30px auto;
   text-align: center;
   font-size: 18px;
   border: none;
+}
+#croissant-icon {
+  margin: 30px auto;
+  text-align: center;
+  font-size: 36px;
 }
